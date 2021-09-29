@@ -1,0 +1,49 @@
+.bodyIndex {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section2-index {
+  background-image: url(../img/comoLeerPartituras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo-call-to-action {
+  color: $terColor;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.links {
+  transition: all 0.3s !important;
+}
+
+.links:hover {
+  color: red !important;
+  transform: scale(1.1) !important;
+}
+
+.imagenesObras {
+  border-radius: 15px;
+  border: solid black 2px;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.img-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.audioApariencia {
+  background-color: rgba(0, 0, 0, 0.473);
+  padding: 2px;
+  border-radius: 30px;
+}
